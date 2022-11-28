@@ -1,0 +1,21 @@
+// int tree::dis(int v, int u){
+//     node* Vv = findPos(v), * Vu = findPos(u);
+//     if (Vv == Vu) return 0;
+//     //cout <<"iterv_id: " << iterv->id <<" iteru_id: "<< Vu->parent->id <<"\n";
+//     bool found = 0;
+//     int Vvtolca = 0, Vutolca = 0;
+//     while (Vv != NULL && !found){
+//         node* iteru = Vu;
+//         Vutolca = 0;
+//         while (iteru != root){
+//             if (iteru == Vv){
+//                 found = 1;
+//             }
+//             iteru = iteru->parent;
+//             Vutolca++;
+//         }
+//         Vv = Vv->parent;
+//         Vvtolca++;
+//     }
+//     return Vvtolca+Vutolca-1;
+// }
